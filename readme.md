@@ -1,15 +1,15 @@
 # PROJECT 2
 
-- **Project Name:** jlkdjfljdflkjflsdfj
-- **Project By:** your name
-- [**LINK TO GITHUB**](http://www.github.com)
-- [**LINK TO DEPLOYED WEBSITE**](http://www.render.com)
+- **Project Name:** TrackDay Tracker
+- **Project By:** Jonathan Casasola
+- [**LINK TO GITHUB**] https://github.com/Jonathan1295-09/Project2.git
+- [**LINK TO DEPLOYED WEBSITE**]https://project2-kale-it67.onrender.com
 - **List of Technologies used:** HTML, JS, CSS, Node, Express, EJS, Mongo
-- [**LINK TO TRELLO**](http://www.render.com)
+- [**LINK TO TRELLO**]https://trello.com/b/JGQjtUpf/trackday-tracker
 
 ## Description
 
-"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+I will be building a application where car enthuist can track there lap times and car setups for each track day event attended. users will be able to creat there own accounts and able to log there personal best lap times and also being to log there car setups and weather of that day. 
 
 ## Mock UP of UI
 
@@ -25,6 +25,8 @@
 
 ## ERD (ENTITY RELATIONSHIP DIAGRAM)
 
-![PICTURE OF ERD](http://imgur.com)
+![PICTURE OF ERD]
 
-- [Free ERD Diagram Tool](https://dbdiagram.io/home)
+**Figma ERD:**(https://www.figma.com/file/1ddEOcMCaqH9Td0Hfslt6Z/TrackDay-Tracker-App?type=whiteboard&node-id=0%3A1&t=buwNHLvayVhTwA3c-1)
+
+
