@@ -4,7 +4,7 @@ const {Schema,model} = mongoose;
 
 const trackLogSchema = new Schema({
     track: String,
-    lapTime: Number,
+    lapTime: String,
     weather: String,
     tire: String,
     model: String
