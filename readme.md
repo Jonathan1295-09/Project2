@@ -27,7 +27,7 @@ https://www.figma.com/file/TOaHjS8fXFOu7X2X9FyG9P/TrackDay-Tracker-Mobile?type=d
 |/user/createAccount| post | account creation |
 |/trackday/userlogs| get | list of trackday logs|
 |/trackday/:id/:edit| get| edit existing trackday logs|
-/trackday/newlog | post | post new trackday log
+/trackday/newlog | post | post new trackday log |
 
 ## ERD (ENTITY RELATIONSHIP DIAGRAM)
 
