@@ -3,6 +3,7 @@ require('dotenv').config();
 const express = require('express');
 const morgan = require('morgan');
 const methodOverride = require('method-override');
+const trackLogRouter = require('./controllers/trackLog')
 
 // express application
 const app = express()
