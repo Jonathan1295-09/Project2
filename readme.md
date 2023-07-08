@@ -13,7 +13,9 @@ I will be building a application where car enthuist can track there lap times an
 
 ## Mock UP of UI
 
-- ![Desktop View](http://imgur.com)
+- ![Desktop View]   https://www.figma.com/file/OOYdR4jc43v1PMqxe5T6pO/TrackDay-Tracker-App-Design?type=design&node-id=5%3A59&mode=design&t=wIwPhieq2kbWZvAA-1
+
+
 - ![Mobile View](http://imgur.com)
 
 ## List of Backend Endpoints
