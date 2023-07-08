@@ -16,7 +16,8 @@ I will be building a application where car enthuist can track there lap times an
 - ![Desktop View]   https://www.figma.com/file/OOYdR4jc43v1PMqxe5T6pO/TrackDay-Tracker-App-Design?type=design&node-id=5%3A59&mode=design&t=wIwPhieq2kbWZvAA-1
 
 
-- ![Mobile View](http://imgur.com)
+- ![Mobile View]
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FTOaHjS8fXFOu7X2X9FyG9P%2FTrackDay-Tracker-Mobile%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DQT4Q4zWwe4G24To5-1" allowfullscreen></iframe>
 
 ## List of Backend Endpoints
 
