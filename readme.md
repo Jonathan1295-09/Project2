@@ -23,8 +23,11 @@ https://www.figma.com/file/TOaHjS8fXFOu7X2X9FyG9P/TrackDay-Tracker-Mobile?type=d
 
 | ENDPOINT | METHOD | PURPOSE |
 |----------|--------|---------|
-| /dog | get | list all dogs |
-|/dog/:id | get | list one dog |
+| /user/login | post | login |
+|/user/createAccount| post | account creation |
+|/trackday/userlogs| get | list of trackday logs|
+|/trackday/:id/:edit| get| edit existing trackday logs|
+/trackday/newlog | post | post new trackday log
 
 ## ERD (ENTITY RELATIONSHIP DIAGRAM)
 
