@@ -3,9 +3,15 @@ const TrackLog = require('../models/trackLog');
 
 const router = express.Router();
 
+
+// Controllers //
 router.get("/", async (req,res) => {
     const allTracklog = await TrackLog.find({})
     res.render("tracklogs/index.ejs", {tracklogs: allTracklog})
-})
+});
+
+router.get('/new', (req, res) => {
+    res.render('tracklogs/new.ejs')
+});
 
 module.exports = router
