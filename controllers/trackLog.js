@@ -15,6 +15,7 @@ router.get('/new', (req, res) => {
 });
 
 router.post('/', async(req, res) => {
+    console.log(req.body)
     await TrackLog.create(req.body)
     res.redirect('/tracklog');
 });

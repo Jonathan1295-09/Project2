@@ -11,7 +11,7 @@ const app = express()
 
 // middleware 
 app.use(morgan('tiny')); // logging
-app.use(express.urlencoded({extended: 'true'}));
+app.use(express.urlencoded());
 app.use(methodOverride('_method')); // override with post having ?_METHOD = delete or ?_method
 app.use(express.static('public')); // serve static files from public folder
 
