@@ -9,10 +9,11 @@
             <a href="/tracklog/new"> Create new Track log</a>
                     <% for (tracklog of tracklogs) { %>
                         <article>
-                            <h2>
+                            <a href="/tracklog<%=tracklog._id%>">
+                                <h2>
                                 <%=tracklog.track %>
-                            </h2>
-                    </a>
+                                </h2>
+                            </a>
                 </article>
                 <%}%>
         </div>
