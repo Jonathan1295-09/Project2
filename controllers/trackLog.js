@@ -14,4 +14,9 @@ router.get('/new', (req, res) => {
     res.render('tracklogs/new.ejs')
 });
 
+router.post('/', async(req, res) => {
+    await TrackLog.create(req.body)
+    res.redirect('/tracklog');
+});
+
 module.exports = router
