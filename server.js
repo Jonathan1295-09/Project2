@@ -2,6 +2,7 @@
 require('dotenv').config();
 const express = require('express');
 const morgan = require('morgan');
+const trackLog = require('./models/trackLog')
 const methodOverride = require('method-override');
 const TrackLogRouter = require('./controllers/trackLog')
 
@@ -16,9 +17,9 @@ app.use(express.static('public')); // serve static files from public folder
 app.use('/trackLog', TrackLogRouter);
 
 // routes
-app.get('/', (req,res) => {
-    res.send('Hello World')
-});
+// app.get('/', (req,res) => {
+//     res.render('views/tracklogs','index.ejs')
+// });
 
 
 const PORT = process.env.PORT

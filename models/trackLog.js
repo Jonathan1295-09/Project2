@@ -10,7 +10,7 @@ const trackLogSchema = new Schema({
     model: String
 });
 
-const TrackLog = model ("TrackLog", trackLogSchema);
+const TrackLog = model ("trackLog", trackLogSchema);
 
 console.log(TrackLog)
 

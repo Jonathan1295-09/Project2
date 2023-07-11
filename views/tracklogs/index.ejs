@@ -3,16 +3,17 @@
 <body>
     <main>
         <div>
-            <p><%= user%></p>
             <a href="/user/logout"><button>logout</button></a>
             <a href="/tracklog/new"> Create new Track log</a>
                 <article>
-                    <a href="/tracklog/<%tracklog.id%>">
+                    <a href="/tracklog/<%=track._id%>">
+                    <% for (tracklog of tracklogs) { %>
                         <h2>
-                            <%tracklog.name %>
+                            <%=tracklog.name %>
                         </h2>
                     </a>
                 </article>
+                <%}%>
         </div>
     </main>
 </body>
