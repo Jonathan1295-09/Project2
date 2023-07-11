@@ -4,7 +4,15 @@
     <main>
         <div>
             <p><%= user%></p>
-            <a href=""
+            <a href="/user/logout"><button>logout</button></a>
+            <a href="/tracklog/new"> Create new Track log</a>
+                <article>
+                    <a href="/tracklog/<%tracklog.id%>">
+                        <h2>
+                            <%tracklog.name %>
+                        </h2>
+                    </a>
+                </article>
         </div>
     </main>
 </body>
