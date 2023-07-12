@@ -5,13 +5,20 @@
     <main>
         <div>
             <article>
-                <h2><%tracklog.track%></h2> 
-                    <h3>
-                        <%tracklog.laptime%> <br>
-                        <%tracklog.Weather%> <br>
-                        <%tracklog.Tire%> <br>
-                        <%tracklog.Model%> 
-                    </h3>
+                <a href="/tracklog"> <button>Back To Main</button></a>
+                <h2><%=tracklog.track%></h2> 
+                    <h2>
+                        <%=tracklog.lapTime%> <br>
+                        <%=tracklog.weather%> <br>
+                        <%=tracklog.tire%> <br>
+                        <%=tracklog.model%> 
+
+                        <a href="/tracklog/<%tracklog._id%>/edit"><button>Edit</button></a>
+                        <form action="/tracklog/<%tracklog._id%>?_method=delete" method="POST">
+                            <input type="submit" value="delete"/>
+                        </form>
+
+                    </h2>
             </article>
         </div>
     </main>

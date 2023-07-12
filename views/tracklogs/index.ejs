@@ -2,14 +2,14 @@
 <html lang="en">
     
 <body>
-    <h1> TrachDay Tracker</h1>
+    <h1> TrackDay Tracker</h1>
     <main>
         <div>
             <a href="/user/logIn"><button>log In</button></a>
             <a href="/tracklog/new"> Create new Track log</a>
                     <% for (tracklog of tracklogs) { %>
                         <article>
-                            <a href="/tracklog<%=tracklog._id%>">
+                            <a href="/tracklog/<%=tracklog._id%>">
                                 <h2>
                                 <%=tracklog.track %>
                                 </h2>
