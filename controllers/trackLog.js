@@ -20,4 +20,10 @@ router.post('/', async(req, res) => {
     res.redirect('/tracklog');
 });
 
-module.exports = router
+router.get('/:id', async (req,res) => {
+    const id = req.params.id;
+    const allTracklog = await TrackLog.findById(id);
+    res.render('tracklogs/show.ejs', {allTracklog})
+});
+
+module.exports = router;
