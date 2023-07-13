@@ -1,5 +1,5 @@
 const mongoose = require('./connection');
-const TrackLog =require('./trackLog')
+const TrackLog = require('./trackLog')
 
 const {Schema, model} = mongoose
 
