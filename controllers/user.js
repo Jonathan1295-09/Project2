@@ -4,6 +4,9 @@ const router = express.Router();
 const TrackLog = require('../models/trackLog');
 const User = require('../models/user');
 
+//sign up and login/logout routes //
+router.get('/signup', (req,res) =>
+res.render('users/signup.ejs'))
 
 router.get('/', (req,res) => {
    res.render('users/login.ejs');
@@ -21,6 +24,12 @@ router.post('/login', async (req,res) => {
             res.redirect('tracklogs/index.ejs')
         }
     }
+});
+
+router.get('/logout', (req,res) => {
+    req.session.destroy(err => {
+        res.redirect('/')
+    })
 });
 
 module.exports = router;
