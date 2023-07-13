@@ -32,4 +32,16 @@ router.delete('/:id', async (req,res) => {
     res.redirect('/tracklog')
 });
 
+router.get('/:id/edit', async (req,res) => {
+    const id = req.params.id;
+    const allTracklog = await TrackLog.findById(id);
+    res.render('tracklogs/edit.ejs', {allTracklog})
+});
+
+router.put('/:id', async (req,res) => {
+    const id = req.params.id;
+    await TrackLog.findByIdAndUpdate(id, req.body);
+    res.redirect('/tracklog')
+});
+
 module.exports = router;
