@@ -4,7 +4,8 @@ const express = require('express');
 const morgan = require('morgan');
 const trackLog = require('./models/trackLog')
 const methodOverride = require('method-override');
-const TrackLogRouter = require('./controllers/trackLog')
+const TrackLogRouter = require('./controllers/trackLog');
+const UserRouter = require('./controllers/user')
 
 // express application
 const app = express()
@@ -16,6 +17,7 @@ app.use(methodOverride('_method')); // override with post having ?_METHOD = dele
 app.use(express.static('public')); // serve static files from public folder
 
 app.use('/trackLog', TrackLogRouter);
+app.use('/user', UserRouter);
 
 // routes
 // app.get('/', (req,res) => {
