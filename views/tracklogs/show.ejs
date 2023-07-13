@@ -13,8 +13,8 @@
                         <%=tracklog.tire%> <br>
                         <%=tracklog.model%> 
 
-                        <a href="/tracklog/<%tracklog._id%>/edit"><button>Edit</button></a>
-                        <form action="/tracklog/<%tracklog._id%>?_method=delete" method="POST">
+                        <a href="/tracklog/<%=tracklog._id%>/edit"><button>Edit</button></a>
+                        <form action="/tracklog/<%=tracklog._id%>?_method=delete" method="POST">
                             <input type="submit" value="delete"/>
                         </form>
 
