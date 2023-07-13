@@ -3,7 +3,7 @@ const bcrypt = require('bcrypt');
 
 const router = express.Router();
 
-router.get('/logout', (req,res) => {
+router.get('/login', (req,res) => {
     req.session.destroy(err => {
         res.redirect('/')
     })
