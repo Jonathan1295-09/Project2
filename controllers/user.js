@@ -13,7 +13,7 @@ router.post('/signup', async(req,res) => {
     try{
         req.body.password = await bcrypt.hash(req.body.password, await bcrypt.genSalt(10));
         await User.create(req.body);
-        res.redirect('user/login');
+        res.redirect('/');
     }catch{
         res.send('there is an error');
     }
