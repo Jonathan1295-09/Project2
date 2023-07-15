@@ -1,0 +1,17 @@
+body{
+    background-image: url("img/SH_ARTGT3R220.jpg");
+
+}
+
+.log{
+    text-align: center;
+    color: gold;
+    font-size: 25px;
+    box-shadow: 35px;
+}
+
+.title{
+    text-align: center;
+    color: goldenrod;
+    font-size: 35px;
+}

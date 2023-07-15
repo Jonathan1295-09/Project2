@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<link rel="stylesheet" href="/edit.css"
 <body>
     <main>
         <div>
             <form method="POST" action="/tracklog/<%=tracklog._id%>?_method=PUT">
-                <fieldset>
-                    <legend>Edit Track log</legend>
+                <fieldset class="log">
+                    <legend class="title">Edit Track log</legend>
                     <label>Track: <input type="text" name="track" placeholder="Track name"/></label>
                     <label>Lap Time: <input type="text" name="lapTime" placeholder="Lap Time"/></label>
                     <label>Weather: <input type="text" name="weather" placeholder="Weather"/></label>
