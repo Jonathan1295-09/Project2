@@ -1,10 +1,29 @@
 body{
-    background-image: url("/public/img/racecar2.jpg");
-
+    background-image: url("img/racecar2.jpg");
+    background-position: center;
 };
 
 .login-form{
-    width: 496px;
-    height: 317px;
-    background-color: white;
+    
+    
+}
+
+.userlogin{
+    text-align: center;
+  
+    
+}
+
+h1{
+    text-align: center;
+    color: greenyellow;
+}
+
+.form-label{
+    color: greenyellow;
+    font-size: 30px;
+}
+
+.username{
+    color: greenyellow;
 }

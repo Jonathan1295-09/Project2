@@ -1,0 +1,22 @@
+h1{
+    color: greenyellow;
+    text-align: center;
+}
+
+body{
+    background-image: url("img/racecar3.jpg");
+    position: center;
+}
+
+.info{
+    text-align: center;
+}
+
+.New{
+    color: black;
+    font-size: 25px;
+}
+
+h2{
+    color: black;
+}

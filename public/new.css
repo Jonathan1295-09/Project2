@@ -1,0 +1,21 @@
+body{
+    background-image: url(img/goodwood.jpg);
+}
+
+.form{
+    text-align: center;
+    position: static;
+    margin-top: 350px;
+    box-shadow: 25px;
+}
+
+.t{
+    color: gold;
+    font-size: 25px;
+
+}
+
+.create{
+    color: gold;
+    font-size: 30px;
+}

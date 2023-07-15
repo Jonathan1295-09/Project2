@@ -2,19 +2,20 @@
 <html lang="en">
     <link rel="stylesheet" href="/userlogin.css">
 <body>
+    <h1>TrackDay Tracker</h1>
     <main>
         <div>
             
             <form action="/login" method="post" class="login-form">
-                <fieldset>
-                    <legend>User Login</legend>
-                    <label>USERNAME: <input type="text" name="username" required/></label>
-                    <label>PASSWORD: <input type="password" name="password" required/></label>
+                <fieldset class="userlogin">
+                    <legend class="username">User Login</legend>
+                    <label class="form-label">USERNAME: <input type="text" name="username" required/></label>
+                    <label class="form-label">PASSWORD: <input type="password" name="password" required/></label>
                     <input type="submit" value="Login"/>
                 </fieldset>
                 
             </form>
-            <div class="Signup"> <a href="/signup"><button>Sign Up</button></a></div>
+            <div class="container"> <a href="/signup"><button>Sign Up</button></a></div>
         </div>
     </main>
 </body>

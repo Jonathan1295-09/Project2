@@ -1,0 +1,22 @@
+body{
+    background-image: url("img/racecar1.jpg");
+    
+}
+
+.signup{
+    text-align: center;
+}
+.username{
+    color: greenyellow;
+    font-size: 30px;
+}
+
+.Newuser{
+    font-size: 30px;
+    color: greenyellow;
+}
+
+.user{
+    color: greenyellow;
+    font-size: 25px;
+}
