@@ -1,0 +1,10 @@
+body{
+    background-image: url("/public/img/racecar2.jpg");
+
+};
+
+.login-form{
+    width: 496px;
+    height: 317px;
+    background-color: white;
+}
